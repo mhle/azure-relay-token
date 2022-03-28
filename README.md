@@ -17,6 +17,12 @@ This repo contains sample code to get relay token and ICE configuration for STUN
 
 You should see the ICE configuration output on the console.
 
+### Testing the configuration
+
+Once you have the ICE configuration go to this [WebRTC test page](https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/).
+
+Input the servers and credentials, and click on `Gather candidates`. If you see a `relay` candidate appear under `Component type` the configuration works as expected.
+
 ### Further reading
 
 1. [Azure Quickstart tutorial](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/relay-token?pivots=programming-language-javascript)

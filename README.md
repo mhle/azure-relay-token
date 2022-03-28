@@ -9,7 +9,10 @@ This repo contains sample code to get relay token and ICE configuration for STUN
 ### How to run
 
 1. run `npm install`
-1. create a .env file with content `COMMUNICATION_CONNECTION_STRING=<your azure communication service connection string>`
+1. create a `.env` file with contents:
+
+`COMMUNICATION_CONNECTION_STRING=<your azure communication service connection string>`
+
 1. run `node relay-token.js`
 
 You should see the ICE configuration output on the console.

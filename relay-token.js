@@ -12,7 +12,7 @@ async function main() {
   console.log("Getting relay configuration")
 
   const config = await relayClient.getRelayConfiguration()
-  console.log("RelayConfig", config)
+  console.log("RelayConfig", JSON.stringify(config, undefined, 2))
 }
 
 main().catch((error) => {
